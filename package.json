@@ -1,0 +1,21 @@
+{
+  "name": "fast-track-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "tests": "cypress run",
+    "lint": "eslint cypress"
+  },
+  "author": "Aleks",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.9.0",
+    "eslint-plugin-cypress": "^2.13.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "stylelint-config-standard": "^31.0.0"
+  }
+}
